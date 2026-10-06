@@ -1,0 +1,57 @@
+.reasons{
+    display: flex;
+    background-color: orangered;
+    padding-top: 100px ;
+    padding-bottom: 70px;
+    padding-left: 50px;
+}
+.left-r{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    width: 50%;
+    gap: 25px;
+}
+.gym-img{
+     height: fit-content;
+}
+.gym-img1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.left-r img{
+    height: auto;
+    width: 350px;
+}
+.right-r{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.lists-r{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.list-r{
+    display: flex;
+    gap: 20px;
+}
+.sub-heading{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.partner-img img{
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+    border-radius: 25px;
+}
+.partner-text{
+    color: black;
+    margin-top: 20px;
+    font-size: 30px;
+}

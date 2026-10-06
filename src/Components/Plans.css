@@ -1,0 +1,47 @@
+.plans{
+    background-color: gray;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.plan-text{
+    display: flex;
+    gap: 50px;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.plans-detail{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 30px;
+}
+.plan-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.plan-btn{
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.plan-btn2{
+    height: 40px;
+    margin-top: 20px;
+}
+.plan-check{
+    display: flex;
+    gap: 25px;
+}

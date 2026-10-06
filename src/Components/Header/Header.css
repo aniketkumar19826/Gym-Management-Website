@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+.navbar ul li{
+    margin: 10px;
+}
+.navbar ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.desc{
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(109, 109, 152);
+    padding: 20px 10px;
+}
+.desc2{
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

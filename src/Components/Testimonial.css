@@ -1,0 +1,83 @@
+.testimonial{
+    background-color: rgb(103, 103, 207);
+    padding: 100px 30px;
+    display: flex;
+    height: 100vh;
+}
+.left-t{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.testimonial-text4{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    gap: 25px;
+}
+.test-appr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.desc4 {
+    display: flex;
+    gap: 10px;
+}
+.arrow{
+    display: flex;
+    gap: 10px;
+}
+.testimonial-head{
+    color: orange;
+}
+.test-text1{
+    font-size: 3rem;
+}
+.boxes{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.right-t{
+    padding-left: 100px;
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: black;
+    border: 2px solid black;
+    z-index: 1;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color:orangered;
+    border: 2px solid black;
+    z-index: 2;
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    background-color:red;
+    border: 2px solid black;
+    z-index: 3;
+    padding: 0;
+}
+.role{
+    color: rgb(151, 30, 30);
+}
+    

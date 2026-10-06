@@ -1,0 +1,143 @@
+.hero{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+.hero .fitimg {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    border-radius: 300px;
+    border: 0;
+    z-index: 6;
+}
+.left-h{
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 25px;
+    background-color: black;
+    color: white;
+}
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: rgb(42, 42, 102);
+    padding: 20px 13px;
+    width: fit-content;
+    text-transform: uppercase;
+    border-radius: 4rem;
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: flex-start;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+    background-color: rgb(227, 227, 11);
+    height: 80%;
+    width: 5.4rem;
+    position: absolute;
+    left: 8px; 
+    top: 0.5rem;
+    border-radius: 3rem; 
+    z-index: 1; 
+}
+.hero-text{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.3rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+.figure{
+    display: flex;
+    gap: 2rem;
+    margin-top: 40px;
+}
+.figure>div{
+    display: flex;
+    flex-direction: column;
+}
+.figure>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+.figure>div>span:nth-of-type(2){
+    color: gray;
+   text-transform: none;
+   font-size: 1rem;
+}
+.hero-button{
+    display: flex;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.hero-button>:nth-child(1){
+    color: black;
+    width: 8rem;
+    background-color: orange;
+    border: none;
+}
+.hero-button>:nth-child(2){
+    color: black;
+    width: 8rem;
+    background-color: white;
+    border: 2px solid orange;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    box-shadow: none;
+}
+.right-h{
+    width: 30%;
+    background-color: rgb(171, 123, 34);
+    position: relative;
+    z-index: 5;
+}
+.right-h .btn{
+    margin: 60px 0 0 100px;
+    background-color: green;
+    border: 0;
+    width: 8rem;
+}
+.heart-rate img{
+    height: 50px;
+    width: 50px;
+}
+.heart-rate{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    background-color: yellow;
+    height: 130px;
+    width: 130px;
+    margin: 30px 0 0 120px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
